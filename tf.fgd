@@ -627,6 +627,7 @@
 	input HandleMapEvent(string) : "Handles map events. This will be different events for different maps."
 	input SetCustomUpgradesFile(string) : "Specifies the path relative to the game directory to the upgrades file to be used."
 	input SetRoundRespawnFreezeEnabled(integer) : "Enable/disable the player movement freeze period after a round begins."
+	input SetMapForcedTruceDuringBossFight(bool) : "Enable/disable truce between the teams during a fight with Monoculus or Merasmus."
 	
 	output OnWonByTeam1(void) : "Sent when RED wins the round."
 	output OnWonByTeam2(void) : "Sent when BLUE wins the round."
@@ -640,6 +641,8 @@
 	output OnStateExitPreRound(void) : "Fired when exiting the pre-round state (just before round running)."
 	output OnStateEnterRoundRunning(void) : "Fired when entering the round-running state."
 	output OnMatchSummaryStart(void) : "Fired when the match summary begins and players are spawned on stage."
+	output OnTruceStart(void) : "Sent when a truce starts."
+	output OnTruceEnd(void) : "Sent when a truce ends."
 ]
 
 @PointClass base(Targetname, TeamNum, MatchSummary, EnableDisable, Angles) studio("models/editor/playerstart.mdl") = info_player_teamspawn :
@@ -1222,6 +1225,7 @@
 		2: "Start with model hidden" : 0
 		4: "Disable shadow" : 0
 		8: "Disable sounds" : 0
+		16: "Bots should ignore" : 0
 	]
 	
 	point_start_locked(choices) : "Start locked" : 0 : "Locked means the point will not be available for capture until it is unlocked via its input."  =
