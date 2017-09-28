@@ -1,0 +1,255 @@
+Locked cvar: sv_showanimstate - Show the (server) animation state for the specified entity (-1 for none).
+Locked cvar: sv_showanimstate_log - 1 to output sv_showanimstate to Msg(). 2 to store in AnimStateServer.log. 3 for both.
+Locked cvar: mp_feetyawrate - How many degrees per second that we can turn our feet or upper body.
+Locked cvar: mp_facefronttime - After this amount of time of standing in place but aiming to one side, go ahead and move feet to face upper body.
+Locked cvar: mp_ik - Use IK on in-place turns.
+Locked cvar: sv_netvisdist - Test networking visibility distance
+Locked cvar: sv_suppress_viewpunch - 
+Locked cvar: sv_force_transmit_ents - Will transmit all entities to client, regardless of PVS conditions (will still skip based on transmit flags, however).
+Locked cvar: sv_optimizedmovement - 
+Locked cvar: sv_stopspeed - Minimum stopping speed when on ground.
+Locked cvar: sv_maxspeed - 
+Locked cvar: sv_accelerate - 
+Locked cvar: sv_airaccelerate - 
+Locked cvar: sv_wateraccelerate - 
+Locked cvar: sv_waterfriction - 
+Locked cvar: sv_footsteps - Play footstep sound for players
+Locked cvar: sv_rollspeed - 
+Locked cvar: sv_rollangle - Max view roll angle
+Locked cvar: sv_friction - World friction.
+Locked cvar: sv_bounce - Bounce multiplier for when physically simulated objects collide with other objects.
+Locked cvar: sv_maxvelocity - Maximum speed any ballistically moving object is allowed to attain per axis.
+Locked cvar: sv_stepsize - 
+Locked cvar: sv_backspeed - How much to slow down backwards motion
+Locked cvar: sv_waterdist - Vertical view fixup when eyes are near water plane.
+Locked cvar: sv_pushaway_force - How hard physics objects are pushed away from the players on the server.
+Locked cvar: sv_pushaway_min_player_speed - If a player is moving slower than this, don't push away physics objects (enables ducking behind things).
+Locked cvar: sv_pushaway_max_force - Maximum amount of force applied to physics objects by players.
+Locked cvar: sv_pushaway_clientside - Clientside physics push away (0=off, 1=only localplayer, 1=all players)
+Locked cvar: sv_pushaway_player_force - How hard the player is pushed away from physics objects (falls off with inverse square of distance).
+Locked cvar: sv_pushaway_max_player_force - Maximum of how hard the player is pushed away from physics objects.
+Locked cvar: sv_lagcompensation_teleport_dist - How far a player got moved by game code before we can't lag compensate their position back
+Locked cvar: sv_unlag - Enables player lag compensation
+Locked cvar: sv_maxunlag - Maximum lag compensation in seconds
+Locked cvar: sv_lagflushbonecache - Flushes entity bone cache on lag compensation
+Locked cvar: sv_unlag_fixstuck - Disallow backtracking a player for lag compensation if it will cause them to become stuck
+Locked cvar: sv_unlag_debug - 
+Locked cvar: sv_pushaway_clientside_size - Minimum size of pushback objects
+Locked command: sv_soundemitter_flush - Flushes the sounds.txt system (server only)
+Locked command: sv_soundemitter_filecheck - Report missing wave files for sounds and game_sounds files.
+Locked command: sv_findsoundname - Find sound names which reference the specified wave files.
+Locked command: sv_soundscape_printdebuginfo - print soundscapes
+Locked cvar: mp_capstyle - Sets the style of capture points used. 0 = Fixed players required to cap. 1 = More players cap faster, but longer cap times.
+Locked cvar: mp_blockstyle - Sets the style of capture point blocking used. 0 = Blocks break captures completely. 1 = Blocks only pause captures.
+Locked cvar: mp_capdeteriorate_time - Time it takes for a full capture point to deteriorate.
+Locked cvar: mp_showroundtransitions - Show gamestate round transitions.
+Locked cvar: mp_showcleanedupents - Show entities that are removed on round respawn.
+Locked cvar: sv_vote_timer_duration - How long to allow voting on an issue
+Locked cvar: sv_vote_command_delay - How long after a vote passes until the action happens
+Locked cvar: item_quality_chance_unique - Percentage chance that a random item is unique.
+Locked cvar: item_quality_chance_rare - Percentage chance that a random item is a rare.
+Locked cvar: item_quality_chance_common - Percentage chance that a random item is common.
+Locked cvar: item_enable_content_streaming - 
+Locked cvar: tf_obj_build_rotation_speed - Degrees per second to rotate building when player alt-fires during placement.
+Locked cvar: tf_obj_max_attach_dist - 
+Locked cvar: sv_ignore_hitboxes - Disable hitboxes
+Locked cvar: tf_bonuspack_score - 
+Locked cvar: tf_duck_allow_team_pickup - 
+Locked cvar: anim_showstate - Show the (client) animation state for the specified entity (-1 for none).
+Locked cvar: anim_showstatelog - 1 to output anim_showstate to Msg(). 2 to store in AnimState.log. 3 for both.
+Locked cvar: mp_showgestureslots - Show multiplayer client/server gesture slot information for the specified player index (-1 for no one).
+Locked cvar: mp_slammoveyaw - Force movement yaw along an animation path.
+Locked cvar: tf_weapon_ragdoll_velocity_min - 
+Locked cvar: tf_weapon_ragdoll_velocity_max - 
+Locked cvar: tf_weapon_ragdoll_maxspeed - 
+Locked cvar: tf_duck_debug_spew - 
+Locked cvar: tf_showspeed - 
+Locked cvar: tf_avoidteammates - Controls how teammates interact when colliding.
+  0: Teammates block each other
+  1: Teammates pass through each other, but push each other away (default)
+Locked cvar: tf_solidobjects - 
+Locked cvar: tf_clamp_back_speed - 
+Locked cvar: tf_clamp_back_speed_min - 
+Locked cvar: tf_scout_hype_mod - 
+Locked cvar: tf_max_charge_speed - 
+Locked cvar: tf_parachute_gravity - Gravity while parachute is deployed
+Locked cvar: tf_parachute_maxspeed_xy - Max XY Speed while Parachute is deployed
+Locked cvar: tf_parachute_maxspeed_z - Max Z Speed while Parachute is deployed
+Locked cvar: tf_parachute_maxspeed_onfire_z - Max Z Speed when on Fire and Parachute is deployed
+Locked cvar: tf_parachute_aircontrol - Multiplier for how much air control players have when Parachute is deployed
+Locked cvar: tf_feign_death_activate_damage_scale - 
+Locked cvar: tf_feign_death_damage_scale - 
+Locked cvar: tf_stealth_damage_reduction - 
+Locked cvar: tf_test_special_ducks - 
+Locked cvar: tf_mm_abandoned_players_per_team_max - 
+Locked cvar: tf_force_holidays_off - 
+Locked cvar: tf_caplinear - If set to 1, teams must capture control points linearly.
+Locked cvar: tf_stalematechangeclasstime - Amount of time that players are allowed to change class in stalemates.
+Locked cvar: tf_attack_defend_map - 
+Locked cvar: tf_sticky_radius_ramp_time - Amount of time to get full radius after arming
+Locked cvar: tf_sticky_airdet_radius - Radius Scale if detonated in the air
+Locked cvar: tf_arena_force_class - Forces players to play a random class each time they spawn.
+Locked cvar: tf_arena_change_limit - Number of times players can change their class when mp_force_random_class is being used.
+Locked cvar: mp_waitingforplayers_time - WaitingForPlayers time length in seconds
+Locked cvar: tf_gamemode_arena - 
+Locked cvar: tf_gamemode_cp - 
+Locked cvar: tf_gamemode_ctf - 
+Locked cvar: tf_gamemode_sd - 
+Locked cvar: tf_gamemode_rd - 
+Locked cvar: tf_gamemode_pd - 
+Locked cvar: tf_gamemode_tc - 
+Locked cvar: tf_beta_content - 
+Locked cvar: tf_gamemode_payload - 
+Locked cvar: tf_gamemode_mvm - 
+Locked cvar: tf_gamemode_passtime - 
+Locked cvar: tf_gamemode_misc - 
+Locked cvar: tf_bot_count - 
+Locked cvar: tf_competitive_required_late_join_timeout - How long to wait for late joiners in matches requiring full player counts before canceling the match
+Locked cvar: tf_competitive_required_late_join_confirm_timeout - How long to wait for the GC to confirm we're in the late join pool before canceling the match
+Locked command: tf_dumpplayerstats - Dumps current player stats
+Locked cvar: tf_rd_robot_attack_notification_cooldown - 
+Locked cvar: tf_rd_steal_rate - 
+Locked cvar: tf_rd_points_per_steal - 
+Locked cvar: tf_rd_points_approach_interval - 
+Locked cvar: tf_rd_points_per_approach - 
+Locked cvar: tf_rd_min_points_to_steal - 
+Locked cvar: tf_obj_gib_velocity_min - 
+Locked cvar: tf_obj_gib_velocity_max - 
+Locked cvar: tf_obj_gib_maxspeed - 
+Locked cvar: tf_obj_upgrade_per_hit - 
+Locked cvar: object_verbose - Debug object system.
+Locked cvar: obj_damage_factor - Factor applied to all damage done to objects
+Locked cvar: obj_child_damage_factor - Factor applied to damage done to objects that are built on a buildpoint
+Locked cvar: tf_fastbuild - 
+Locked cvar: tf_obj_ground_clearance - Object corners can be this high above the ground
+Locked cvar: tf_obj_damage_tank_achievement_amount - 
+Locked cvar: tf_cart_duck_drop_rate - 
+Locked cvar: tf_cart_soul_drop_rate - 
+Locked cvar: tf_mvm_notice_sapped_squadmates_delay - How long it takes for a squad leader to notice his squadmate was sapped
+Locked cvar: tf_sentrygun_damage - 
+Locked cvar: tf_sentrygun_mini_damage - 
+Locked cvar: tf_sentrygun_ammocheat - 
+Locked cvar: tf_sentrygun_newtarget_dist - 
+Locked cvar: tf_sentrygun_metal_per_shell - 
+Locked cvar: tf_sentrygun_metal_per_rocket - 
+Locked cvar: tf_sentrygun_notarget - 
+Locked cvar: tf_sentrygun_max_absorbed_damage_while_controlled_for_achievement - 
+Locked cvar: tf_sentrygun_kill_after_redeploy_time_achievement - 
+Locked cvar: tf_teleporter_fov_start - Starting FOV for teleporter zoom.
+Locked cvar: tf_teleporter_fov_time - How quickly to restore FOV after teleport.
+Locked cvar: tf_playerstatetransitions - tf_playerstatetransitions <ent index or -1 for all>. Show player state transitions.
+Locked cvar: tf_damageforcescale_other - 
+Locked cvar: tf_damageforcescale_self_soldier_rj - 
+Locked cvar: tf_damageforcescale_self_soldier_badrj - 
+Locked cvar: tf_damageforcescale_pyro_jump - 
+Locked cvar: tf_damagescale_self_soldier - 
+Locked cvar: tf_damage_range - 
+Locked cvar: tf_max_voice_speak_delay - Max time after a voice command until player can do another one
+Locked cvar: tf_deploying_bomb_time - Time to deploy bomb before the point of no return.
+Locked cvar: tf_deploying_bomb_delay_time - Time to delay before deploying bomb.
+Locked cvar: tf_mvm_death_penalty - How much currency players lose when dying
+Locked cvar: tf_highfive_separation_forward - Forward distance between high five partners
+Locked cvar: tf_highfive_separation_right - Right distance between high five partners
+Locked cvar: tf_highfive_max_range - The farthest away a high five partner can be
+Locked cvar: tf_highfive_height_tolerance - The maximum height difference allowed for two high-fivers.
+Locked command: CreatePredictionError - Create a prediction error
+Locked command: sv_debug_stuck_particles - Debugs particles attached to the player under your crosshair.
+Locked command: tf_ignite_player - Sets you on fire
+Locked cvar: tf_scout_air_dash_count - 
+Locked cvar: tf_spy_invis_time - Transition time in and out of spy invisibility
+Locked cvar: tf_spy_invis_unstealth_time - Transition time in and out of spy invisibility
+Locked cvar: tf_spy_max_cloaked_speed - 
+Locked cvar: tf_whip_speed_increase - 
+Locked cvar: tf_max_health_boost - Max health factor that players can be boosted to by healers.
+Locked cvar: tf_invuln_time - Time it takes for invulnerability to wear off.
+Locked cvar: tf_player_movement_stun_time - 
+Locked cvar: tf_boost_drain_time - Time is takes for a full health boost to drain away from a player.
+Locked cvar: tf_damage_events_track_for - 
+Locked cvar: tf_useparticletracers - Use particle tracers instead of old style ones.
+Locked cvar: tf_spy_cloak_consume_rate - cloak to use per second while cloaked, from 100 max )
+Locked cvar: tf_spy_cloak_regen_rate - cloak to regen per second, up to 100 max
+Locked cvar: tf_spy_cloak_no_attack_time - time after uncloaking that the spy is prohibited from attacking
+Locked cvar: tf_scout_energydrink_regen_rate - energy drink regen per second, up to 100 max
+Locked cvar: tf_scout_energydrink_consume_rate - energy drink to use per second while boosted, from 100 max
+Locked cvar: tf_scout_energydrink_activation - how long it takes for the energy buff to become active
+Locked cvar: tf_demoman_charge_regen_rate - 
+Locked cvar: tf_demoman_charge_drain_time - 
+Locked cvar: tf_feign_death_duration - Time that feign death buffs last.
+Locked cvar: tf_feign_death_speed_duration - Time that feign death speed boost last.
+Locked cvar: tf_allow_all_team_partner_taunt - 
+Locked cvar: tf_rd_robot_repair_rate - 
+Locked cvar: tf_cheapobjects - Set to 1 and all objects will cost 0
+Locked cvar: tf_target_dummy_health - 
+Locked cvar: tf_target_dummy_melee_mult - 
+Locked cvar: tf_target_dummy_bullet_mult - 
+Locked cvar: tf_target_dummy_other_mult - 
+Locked cvar: tf_target_dummy_lifetime - 
+Locked cvar: tf_raid_engineer_infinte_metal - 
+Locked cvar: tf_mvm_bot_sniper_target_by_dps - If set, Snipers in MvM mode target the victim that has the highest DPS
+Locked cvar: tf_mm_player_disconnect_time_before_abandon - 
+Locked cvar: tf_mm_player_disconnect_time_forgive_ratio - 
+Locked cvar: tf_mm_player_disconnect_time_minimum_penalty - 
+Locked cvar: tf_mvm_allow_abandon_after_seconds - 
+Locked cvar: tf_mvm_allow_abandon_below_players - 
+Locked cvar: tf_mvm_default_sentry_buster_damage_dealt_threshold - 
+Locked cvar: tf_mvm_default_sentry_buster_kill_threshold - 
+Locked cvar: tf_mvm_endless_force_on - Force MvM Endless mode on
+Locked cvar: tf_mvm_endless_wait_time - 
+Locked cvar: tf_mvm_endless_bomb_reset - Number of Waves to Complete before bomb reset
+Locked cvar: tf_mvm_endless_bot_cash - In Endless, number of credits bots get per wave
+Locked cvar: tf_mvm_endless_tank_boost - In Endless, amount of extra health for the tank per wave
+Locked cvar: tf_scout_stunball_base_duration - 
+Locked cvar: tf_scout_stunball_base_speed - 
+Locked cvar: sv_proj_stunball_damage - 
+Locked cvar: tf_scout_bat_launch_delay - 
+Locked cvar: tf_flamethrower_velocity - Initial velocity of flame damage entities.
+Locked cvar: tf_flamethrower_drag - Air drag of flame damage entities.
+Locked cvar: tf_flamethrower_float - Upward float velocity of flame damage entities.
+Locked cvar: tf_flamethrower_vecrand - Random vector added to initial velocity of flame damage entities.
+Locked cvar: tf_flamethrower_maxdamagedist - Maximum damage distance for flamethrower.
+Locked cvar: tf_flamethrower_shortrangedamagemultiplier - Damage multiplier for close-in flamethrower damage.
+Locked cvar: tf_flamethrower_velocityfadestart - Time at which attacker's velocity contribution starts to fade.
+Locked cvar: tf_flamethrower_velocityfadeend - Time at which attacker's velocity contribution finishes fading.
+Locked cvar: tf_flamethrower_burst_zvelocity - 
+Locked cvar: tf_flamethrower_burstammo - How much ammo does the air burst uses per shot.
+Locked cvar: tf_flamethrower_flametime - Time to live of flame damage entities.
+Locked cvar: tf_grenadelauncher_chargescale - 
+Locked cvar: tf_grenadelauncher_livetime - 
+Locked cvar: tf_grenadelauncher_min_contact_speed - 
+Locked cvar: tf_grenade_forcefrom_bullet - 
+Locked cvar: tf_grenade_forcefrom_buckshot - 
+Locked cvar: tf_grenade_forcefrom_blast - 
+Locked cvar: tf_grenade_force_sleeptime - 
+Locked cvar: tf_pipebomb_force_to_move - 
+Locked cvar: tf_pipebomb_deflect_reset_time - 
+Locked cvar: tf_double_donk_window - How long after an impact from a cannonball that an explosion will count as a double-donk.
+Locked cvar: weapon_medigun_damage_modifier - Scales the damage a player does while being healed with the medigun.
+Locked cvar: weapon_medigun_construction_rate - Constructing object health healed per second by the medigun.
+Locked cvar: weapon_medigun_charge_rate - Amount of time healing it takes to fully charge the medigun.
+Locked cvar: weapon_medigun_chargerelease_rate - Amount of time it takes the a full charge of the medigun to be released.
+Locked cvar: weapon_medigun_resist_num_chunks - How many uber bar chunks the vaccinator has.
+Locked cvar: tf_vaccinator_uber_charge_rate_modifier - Vaccinator uber charge rate.
+Locked cvar: tf_medigun_lagcomp - 
+Locked cvar: tf_construction_build_rate_multiplier - 
+Locked cvar: tf_scout_hype_pep_mod - 
+Locked cvar: tf_scout_hype_pep_max - 
+Locked cvar: tf_scout_hype_pep_min_damage - 
+Locked cvar: mp_forceactivityset - 
+Locked cvar: tf_dev_marked_for_death_lifetime - 
+Locked cvar: tf_dev_health_on_damage_recover_percentage - 
+Locked cvar: tf_meleeattackforcescale - 
+Locked cvar: cl_interpolate - Interpolate entities on the client.
+Locked cvar: dbg_demofile - 
+Locked cvar: r_entity - 
+Locked cvar: r_portalscloseall - 
+Locked cvar: sv_stressbots - If set to 1, the server calculates data and fills packets to bots. Used for perf testing.
+Locked cvar: sv_sendtables - Force full sendtable sending path.
+Locked cvar: sv_creationtickcheck - Do extended check for encoding of timestamps against tickcount
+Locked cvar: sv_instancebaselines - Enable instanced baselines. Saves network overhead.
+Locked cvar: sv_useexplicitdelete - Explicitly delete dormant client entities caused by AllowImmediateReuse().
+Locked cvar: vgui_nav_lock - 
+Locked cvar: vgui_nav_lock_default_button - 
+Locked cvar: r_flashlight_version2 - 
+Locked cvar: mat_lodin_time - 
+Locked cvar: mat_lodin_hidden_pop - 
+Locked cvar: mat_spewalloc - 
